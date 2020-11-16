@@ -33,3 +33,7 @@ models:
         tests:
           - accepted_values:
               values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
+
+  - name: stg_ticket_tailor__events
+  - name: stg_ticket_tailor__issued_tickets
+  - name: stg_ticket_tailor__sold_orders
